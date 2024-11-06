@@ -1,0 +1,29 @@
+.frm-container{
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form-cntrl{
+    width: 400px;
+    height: auto;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.form-control{
+    font-size: 14px;
+}
+
+.submit_btn{
+    width: 100%;
+}
+
+@media (max-width:425px) {
+    #form-cntrl{
+        width: 80%;
+    }
+}
